@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>实验1</title>
+	</head>
+	<body>
+		<form name="form1">
+			<label for=username>姓名：</label>
+			<input name=username id=username type=text placeholder="请输入你的姓名......" required><br><br>
+			<label for=age>年龄：</label>
+			<input name=age id=age type=number placeholder="请输入你的年龄......" required><br><br>
+			<label for=sex>性别：</label>
+			<input type="radio" name="sex" value="male" required>
+			<img src="https://s2.loli.net/2022/10/10/A1GB8izcxstaM6w.jpg" alt="man" width="15" height="15">男士
+			<input type="radio" name="sex" value="female" required>
+			<img src="https://s2.loli.net/2022/10/10/QbmJZTLpUl4HfO9.jpg" alt="women" width="15" height="15">女士<br><br>
+			<label for=birthday>生日：</label>
+			<select required>
+				<option value="--请选择年份--">--请选择年份--</option>
+			</select>
+			<select required>
+				<option value="--请选择月份--">--请选择月份--</option>
+			</select>
+			<select required>
+				<option value=--请选择日--">--请选择日--</option>
+			</select>
+			<br><br>
+			<label for=hobby>爱好：</label>
+			<input type="checkbox" name="hobby" value="1">阅读
+			<input type="checkbox" name="hobby" value="2">跑步
+			<input type="checkbox" name="hobby" value="3">游泳
+			<input type="checkbox" name="hobby" value="4">上网<br><br>
+			<label for=comment>个人介绍：</label><br><br>
+			<textarea placeholder="请输入你的个人介绍......" name="comment" required rows="5" cols="52"></textarea><br><br>
+			<input type="checkbox" name="promise" value="1" required>我同意信息录入<br><br>
+			<input type=submit value="立刻注册"> <input type=reset value="重新输入">
+
+	</body>
+</html>
